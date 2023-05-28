@@ -63,7 +63,7 @@
 
 
         if (mysqli_query($conn, $updateSql)) {
-            return header('location:master.php');
+            return header('location:index.php');
         }
 
 
